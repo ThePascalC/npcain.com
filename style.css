@@ -11,6 +11,19 @@ body{
   	background-color: white;
     border-radius: 15px;
   }
+  .resumecard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    height: 1100px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  	background-color: white;
+    border-radius: 15px;
+  }
+iframe{
+  height: 100%;
+}
   
   .title {
     color: grey;
