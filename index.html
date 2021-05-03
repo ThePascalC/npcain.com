@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fcf1299e2d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.bgterminal.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+    <link href="bgterminal.css" rel="stylesheet" type="text/css" >
+    <title>Home | Nick Cain</title>
+
+</head>
+<body>
+    <div class="card" style="position: relative;">
+    <div class="navbar">
+       <a class="active" href="index.html">Home</a>
+       <a href="resume.html">Resume</a>
+       <a href="projects.html">Projects</a>
+    </div>
+        <img class="profile" src="img/nick.png" alt="Nick Cain">
+        <h1>Nicholas Cain</h1>
+        <p class="title">Programmer, Educator</p>
+        <a href="https://twitter.com/Pascal_Cain"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/nicholas-cain-30088b167/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/nick.cain.712"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/nicholaspascalcain/"><i class="fa fa-instagram"></i></a>
+
+    </div>
+
+    <div id="terminal" style="z-index:-999"></div>
+    <script>
+        $(document).ready(function(){
+            $('#terminal').bgTerminal({
+                url: 'https://raw.githubusercontent.com/ThePascalC/SinglePlayerPong/master/pong.js',
+                glow: true,
+                speed: 200,
+                wait: 400
+            });
+        });
+    </script>
+</body>
+
+</html>

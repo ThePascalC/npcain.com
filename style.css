@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  	background-color: white;
+    border-radius: 15px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+	  background-color: white;
+  }
+  
+  .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  .profile{
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-position: 50% 50%;
+    object-fit: cover;
+    
+  }
+  .profile:hover{
+    filter: grayscale(25%);
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    overflow:auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .navbar a{
+    width: 33.33%;
+    display: inline-block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover{
+    color: black;
+    background-color: #ddd;
+
+  }
+  .navbar a.active{
+    background-color: rgba(3, 69, 156, 0.548);
+    color:white;
+  }
